@@ -1,6 +1,6 @@
 name: David
 on:
-  workflow_dispatch:
+  push:
 jobs:
   Prueba_01:
     runs-on: ubuntu-latest
