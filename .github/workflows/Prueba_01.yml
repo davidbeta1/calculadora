@@ -1,11 +1,9 @@
-name: Prueba_01
-
+name: Prueba
 on:
   workflow_dispatch:
-  
 jobs:
   Prueba_01:
     runs-on: ubuntu-latest
     steps:
     - name: Prueba 01
-    - run: echo "Prueba01"
+      run: echo "Prueba01"
